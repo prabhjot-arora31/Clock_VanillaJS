@@ -1,0 +1,37 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+    background-image: url(https://www.shutterstock.com/image-vector/simple-illustration-cute-clock-without-600nw-2102790373.jpg);
+}
+#hour , #minute , #second{
+    position: absolute;
+    background-color: #404040;
+    transform-origin: bottom;
+    /* transition: .2s ease-in-out; */
+}
+#hour{
+    width: 4px;
+    border-radius: 20px;
+    left: 49.3%;
+    top: 26.7%;
+    height: 45px;
+    /* display: none; */
+}
+#minute{
+    width: 2.6px;
+    height: 55px;
+    border-radius: 20px;
+    left: 49.7%;
+    top: 23.7%;
+    /* display: none; */
+}
+#second{
+    width: 1.3px;
+    height: 67px;
+    left: 49.95%;
+    top: 18%;
+    border-radius: 20px;
+}

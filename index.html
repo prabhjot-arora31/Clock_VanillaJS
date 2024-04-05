@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="display: flex;margin: auto; justify-content: center; align-items: center; flex-wrap: wrap; gap: 50px;">
+        <div style="border: 2px solid black; padding: 0.7rem; border-radius: 20px;">
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Analog Clock</h2>
+            <div class="container">
+                <div id="hour"></div>
+                <div id="minute"></div>
+                <div id="second"></div>
+            </div>
+        </div>
+        <div style="border: 2px solid black; padding: 0.7rem; border-radius: 20px;">
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Digital Clock</h2>
+            <div
+                style="border: 2px solid black; width: 200px; height: 60px;display: flex; justify-content: center; align-items: center;">
+                <h3 id="time" style="font-family: Arial, Helvetica, sans-serif;"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
